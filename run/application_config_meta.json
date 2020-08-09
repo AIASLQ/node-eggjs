@@ -1,0 +1,338 @@
+{
+  "cluster": {
+    "listen": {
+      "path": "/code/lover/node-eggjs/config/config.default.js",
+      "port": "/code/lover/node-eggjs/config/config.default.js",
+      "hostname": "/code/lover/node-eggjs/config/config.default.js"
+    }
+  },
+  "keys": "/code/lover/node-eggjs/config/config.default.js",
+  "middleware": "/code/lover/node-eggjs/config/config.default.js",
+  "onerror": {
+    "all": "/code/lover/node-eggjs/config/config.default.js",
+    "errorPageUrl": "/code/lover/node-eggjs/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/code/lover/node-eggjs/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/code/lover/node-eggjs/node_modules/egg-onerror/config/config.default.js"
+  },
+  "swaggerdoc": {
+    "dirScanner": "/code/lover/node-eggjs/config/config.default.js",
+    "apiInfo": {
+      "title": "/code/lover/node-eggjs/config/config.default.js",
+      "description": "/code/lover/node-eggjs/config/config.default.js",
+      "version": "/code/lover/node-eggjs/config/config.default.js"
+    },
+    "schemes": "/code/lover/node-eggjs/config/config.default.js",
+    "consumes": "/code/lover/node-eggjs/config/config.default.js",
+    "produces": "/code/lover/node-eggjs/config/config.default.js",
+    "enableSecurity": "/code/lover/node-eggjs/config/config.default.js",
+    "routerMap": "/code/lover/node-eggjs/config/config.default.js",
+    "enable": "/code/lover/node-eggjs/config/config.default.js",
+    "basePath": "/code/lover/node-eggjs/node_modules/egg-swagger-doc-feat/config/config.default.js",
+    "securityDefinitions": "/code/lover/node-eggjs/node_modules/egg-swagger-doc-feat/config/config.default.js",
+    "type": "/code/lover/node-eggjs/node_modules/egg-swagger-doc-feat/config/config.default.js",
+    "itemType": "/code/lover/node-eggjs/node_modules/egg-swagger-doc-feat/config/config.default.js"
+  },
+  "mongoose": {
+    "url": "/code/lover/node-eggjs/config/config.default.js",
+    "options": {
+      "autoReconnect": "/code/lover/node-eggjs/config/config.default.js",
+      "reconnectTries": "/code/lover/node-eggjs/config/config.default.js",
+      "bufferMaxEntries": "/code/lover/node-eggjs/config/config.default.js"
+    },
+    "plugins": "/code/lover/node-eggjs/node_modules/egg-mongoose/config/config.default.js",
+    "loadModel": "/code/lover/node-eggjs/node_modules/egg-mongoose/config/config.default.js",
+    "app": "/code/lover/node-eggjs/node_modules/egg-mongoose/config/config.default.js",
+    "agent": "/code/lover/node-eggjs/node_modules/egg-mongoose/config/config.default.js"
+  },
+  "jwt": {
+    "secret": "/code/lover/node-eggjs/config/config.default.js",
+    "enable": "/code/lover/node-eggjs/config/config.default.js",
+    "match": "/code/lover/node-eggjs/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/code/lover/node-eggjs/node_modules/egg-session/config/config.default.js",
+    "key": "/code/lover/node-eggjs/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/code/lover/node-eggjs/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/code/lover/node-eggjs/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/code/lover/node-eggjs/node_modules/egg-swagger-doc-feat/config/config.default.js",
+      "type": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js",
+      "useSession": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js",
+      "headerName": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js",
+      "queryName": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js",
+      "value": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/code/lover/node-eggjs/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js",
+      "value": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js",
+      "value": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js",
+      "policy": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/code/lover/node-eggjs/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/code/lover/node-eggjs/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/code/lover/node-eggjs/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/code/lover/node-eggjs/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/code/lover/node-eggjs/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/code/lover/node-eggjs/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/code/lover/node-eggjs/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/code/lover/node-eggjs/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/code/lover/node-eggjs/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/code/lover/node-eggjs/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/code/lover/node-eggjs/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/code/lover/node-eggjs/node_modules/egg-watcher/config/config.default.js",
+      "development": "/code/lover/node-eggjs/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/code/lover/node-eggjs/node_modules/egg-schedule/config/config.default.js",
+      "file": "/code/lover/node-eggjs/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/code/lover/node-eggjs/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/code/lover/node-eggjs/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/code/lover/node-eggjs/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/code/lover/node-eggjs/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/code/lover/node-eggjs/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/code/lover/node-eggjs/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/code/lover/node-eggjs/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/code/lover/node-eggjs/node_modules/egg-multipart/config/config.default.js",
+    "files": "/code/lover/node-eggjs/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/code/lover/node-eggjs/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/code/lover/node-eggjs/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/code/lover/node-eggjs/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/code/lover/node-eggjs/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/code/lover/node-eggjs/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/code/lover/node-eggjs/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/code/lover/node-eggjs/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/code/lover/node-eggjs/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/code/lover/node-eggjs/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/code/lover/node-eggjs/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/code/lover/node-eggjs/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/code/lover/node-eggjs/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/code/lover/node-eggjs/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/code/lover/node-eggjs/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/code/lover/node-eggjs/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/code/lover/node-eggjs/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/code/lover/node-eggjs/node_modules/egg-static/config/config.default.js",
+    "dir": "/code/lover/node-eggjs/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/code/lover/node-eggjs/node_modules/egg-static/config/config.default.js",
+    "preload": "/code/lover/node-eggjs/node_modules/egg-static/config/config.default.js",
+    "buffer": "/code/lover/node-eggjs/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/code/lover/node-eggjs/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/code/lover/node-eggjs/node_modules/egg-view/config/config.default.js",
+    "cache": "/code/lover/node-eggjs/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/code/lover/node-eggjs/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/code/lover/node-eggjs/node_modules/egg-view/config/config.default.js",
+    "mapping": "/code/lover/node-eggjs/node_modules/egg-view/config/config.default.js"
+  },
+  "validate": "/code/lover/node-eggjs/node_modules/egg-validate/config/config.default.js",
+  "bcrypt": {
+    "saltRounds": "/code/lover/node-eggjs/node_modules/egg-bcrypt/config/config.default.js"
+  },
+  "env": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+  "name": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+  "cookies": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+  "proxy": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "version": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "description": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "private": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-jwt": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "autod": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "autod-egg": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "egg-bcrypt": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "egg-bin": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "egg-ci": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "egg-mock": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "egg-swagger-doc-feat": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "egg-validate": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "eslint": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "stop": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "dev": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "debug": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "test": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "test-local": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "cov": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "lint": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "ci": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "autod": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "url": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+    },
+    "author": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "license": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+  "HOME": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+  "rundir": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "notFound": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "sitefile": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "middlewares": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "httpClient": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "encoding": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "formLimit": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "textLimit": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "strict": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "depth": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "encoding": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "env": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "level": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "outputJSON": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "buffer": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "appLogName": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "coreLogName": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "agentLogName": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "errorLogName": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/code/lover/node-eggjs/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "maxSockets": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "maxSockets": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "logging": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/code/lover/node-eggjs/node_modules/egg/config/config.default.js"
+}

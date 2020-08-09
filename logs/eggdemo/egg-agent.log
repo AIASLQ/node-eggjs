@@ -1,0 +1,10 @@
+2020-08-09 23:18:09,187 INFO 78934 [egg:logger] init all loggers with options: {"dir":"/code/lover/node-eggjs/logs/eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-08-09 23:18:09,199 INFO 78934 [egg:core] dump config after load, 5ms
+2020-08-09 23:18:09,246 INFO 78934 [egg-watcher] Start watching: ["/code/lover/node-eggjs/app","/code/lover/node-eggjs/config","/code/lover/node-eggjs/mocks","/code/lover/node-eggjs/mocks_proxy","/code/lover/node-eggjs/app.js"]
+2020-08-09 23:18:09,246 INFO 78934 [egg-watcher] Start watching: "/code/lover/node-eggjs/app"
+2020-08-09 23:18:09,246 INFO 78934 [egg-watcher] Start watching: "/code/lover/node-eggjs/config"
+2020-08-09 23:18:09,247 INFO 78934 [egg-watcher] Start watching: "/code/lover/node-eggjs/mocks"
+2020-08-09 23:18:09,247 INFO 78934 [egg-watcher] Start watching: "/code/lover/node-eggjs/mocks_proxy"
+2020-08-09 23:18:09,247 INFO 78934 [egg-watcher] Start watching: "/code/lover/node-eggjs/app.js"
+2020-08-09 23:18:09,248 INFO 78934 [egg-watcher:agent] watcher start success
+2020-08-09 23:18:09,264 INFO 78934 [egg:core] dump config after ready, 4ms

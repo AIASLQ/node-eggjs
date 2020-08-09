@@ -1,0 +1,27 @@
+2020-08-09 23:13:28,364 INFO 77063 [egg-swagger-doc] register router: get /swagger-doc
+2020-08-09 23:13:28,402 INFO 77063 [egg-swagger-doc] register router: get /swagger-ui.html
+2020-08-09 23:13:28,403 INFO 77063 [egg-swagger-doc] register router: post /api/user for controller-user-create 
+2020-08-09 23:13:28,406 INFO 77063 [egg-swagger-doc] register router: delete /api/user/{id} for controller-user-destroy 
+2020-08-09 23:13:28,406 INFO 77063 [egg-swagger-doc] register router: get /api/user/{id} for controller-user-show 
+2020-08-09 23:13:28,406 INFO 77063 [egg-swagger-doc] register router: get /api/user for controller-user-index 
+2020-08-09 23:13:28,406 INFO 77063 [egg-swagger-doc] register router: delete /api/user/{id} for controller-user-removes 
+2020-08-09 23:13:28,406 INFO 77063 [egg-swagger-doc] register router: post /auth/jwt/login for controller-userAccess-login 
+2020-08-09 23:13:28,407 INFO 77063 [egg-swagger-doc] register router: post /auth/jwt/logout for controller-userAccess-logout 
+2020-08-09 23:13:31,740 INFO 77087 [egg-swagger-doc] register router: get /swagger-doc
+2020-08-09 23:13:31,766 INFO 77087 [egg-swagger-doc] register router: get /swagger-ui.html
+2020-08-09 23:13:31,767 INFO 77087 [egg-swagger-doc] register router: post /api/user for controller-user-create 
+2020-08-09 23:13:31,768 INFO 77087 [egg-swagger-doc] register router: delete /api/user/{id} for controller-user-destroy 
+2020-08-09 23:13:31,768 INFO 77087 [egg-swagger-doc] register router: get /api/user/{id} for controller-user-show 
+2020-08-09 23:13:31,769 INFO 77087 [egg-swagger-doc] register router: get /api/user for controller-user-index 
+2020-08-09 23:13:31,774 INFO 77087 [egg-swagger-doc] register router: delete /api/user/{id} for controller-user-removes 
+2020-08-09 23:13:31,775 INFO 77087 [egg-swagger-doc] register router: post /auth/jwt/login for controller-userAccess-login 
+2020-08-09 23:13:31,775 INFO 77087 [egg-swagger-doc] register router: post /auth/jwt/logout for controller-userAccess-logout 
+2020-08-09 23:18:10,832 INFO 78942 [egg-swagger-doc] register router: get /swagger-doc
+2020-08-09 23:18:10,861 INFO 78942 [egg-swagger-doc] register router: get /swagger-ui.html
+2020-08-09 23:18:10,863 INFO 78942 [egg-swagger-doc] register router: post /api/user for controller-user-create 
+2020-08-09 23:18:10,865 INFO 78942 [egg-swagger-doc] register router: delete /api/user/{id} for controller-user-destroy 
+2020-08-09 23:18:10,865 INFO 78942 [egg-swagger-doc] register router: get /api/user/{id} for controller-user-show 
+2020-08-09 23:18:10,866 INFO 78942 [egg-swagger-doc] register router: get /api/user for controller-user-index 
+2020-08-09 23:18:10,866 INFO 78942 [egg-swagger-doc] register router: delete /api/user/{id} for controller-user-removes 
+2020-08-09 23:18:10,866 INFO 78942 [egg-swagger-doc] register router: post /auth/jwt/login for controller-userAccess-login 
+2020-08-09 23:18:10,866 INFO 78942 [egg-swagger-doc] register router: post /auth/jwt/logout for controller-userAccess-logout 
